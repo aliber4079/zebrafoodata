@@ -6,9 +6,10 @@ childNodes, children, find/findall, size, text
 NodeChild functions
 attributes, childNodes, parent, parents, size, text
 */
+
 @Grapes([
-	@Grab(group='org.apache.groovy',module='groovy-xml',version='4.0.10'),
-	@Grab(group='org.apache.groovy',module='groovy-json',version='4.0.10')
+	@Grab(group='org.apache.groovy',module='groovy-xml',version='4.0.11'),
+	@Grab(group='org.apache.groovy',module='groovy-json',version='4.0.11')
 ])
 
 import groovy.xml.XmlSlurper
@@ -68,7 +69,7 @@ if (testing) {
           <AbstractText Label="METHODS" NlmCategory="METHODS">Eleven first-time mothers participated in semi-structured interviews related to the postpartum body image. Data was analysed thematically.</AbstractText>
           <AbstractText Label="FINDINGS" NlmCategory="RESULTS">Four themes: (1) Reverting the body: on bouncing back and losing weight; (2) Picturing me: on standards of beauty and ideal bodies; (3) Redefining earlier self-images: on meta-reproachment of the body; (4) Idealisation of not looking like a mother: on societal pressure to think positively. Findings were discussed through the theoretical concepts by Scheper-Hughes and Lock: the body as both individual, social and political.</AbstractText>
 	  <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Despite <b>nuanced</b> reflections over the body as subject and object, women identified beauty as a personal trait dependent on visual appearance. Bodily beauty was identified as something individual, yet standardised. Women felt strengthened through motherhood but looking like a mother was not considered worth pursuing. To allow for women's contradictory perspectives, caregivers are advised to communicate reflexively about the postpartum body.</AbstractText>
-          <CopyrightInformation>Copyright © 2019 Australian College of Midwives. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
+          <CopyrightInformation>Copyright ï¿½ 2019 Australian College of Midwives. Published by Elsevier Ltd. All rights reserved.</CopyrightInformation>
         </Abstract>
         <AuthorList CompleteYN="Y">
           <Author ValidYN="Y">
@@ -76,7 +77,7 @@ if (testing) {
             <ForeName>Christina</ForeName>
             <Initials>C</Initials>
             <AffiliationInfo>
-              <Affiliation>University College South Denmark, Applied Research and Development, Lembckesvej, Haderslev, 6100, Denmark; University of Southern Denmark, Institute of Clinical Research, Research Unit of Gynaecology and Obstetrics, Kløvervænget 10, Odense C., 5000, Denmark. Electronic address: cpri@health.sdu.dk.</Affiliation>
+              <Affiliation>University College South Denmark, Applied Research and Development, Lembckesvej, Haderslev, 6100, Denmark; University of Southern Denmark, Institute of Clinical Research, Research Unit of Gynaecology and Obstetrics, Klï¿½vervï¿½nget 10, Odense C., 5000, Denmark. Electronic address: cpri@health.sdu.dk.</Affiliation>
             </AffiliationInfo>
           </Author>
           <Author ValidYN="Y">
@@ -84,7 +85,7 @@ if (testing) {
             <ForeName>Helene</ForeName>
             <Initials>H</Initials>
             <AffiliationInfo>
-              <Affiliation>University College South Denmark, Department of Physiotherapy, Degnevej, Esbjerg Ø, 6705, Denmark. Electronic address: hnik@ucsyd.dk.</Affiliation>
+              <Affiliation>University College South Denmark, Department of Physiotherapy, Degnevej, Esbjerg ï¿½, 6705, Denmark. Electronic address: hnik@ucsyd.dk.</Affiliation>
             </AffiliationInfo>
           </Author>
           <Author ValidYN="Y">
